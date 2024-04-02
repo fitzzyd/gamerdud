@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+header {
+    background-color: #e94141;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+nav {
+    background-color: #e94141;
+    padding: 10px 0;
+    text-align: left;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+
+
+.sign-in-logo {
+    float: right; 
+    margin-right: 20px; 
+}
+
+.sign-in-logo i {
+    color: #ffffff; 
+    font-size: 2rem; 
+    transition: transform 0.3s ease;
+}
+
+.sign-in-logo i:hover {
+    transform: scale(1.5); 
+    cursor: pointer;
+}
+
+body{
+       min-height: 100vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(191,79,18,1) 35%, rgba(0,212,255,1) 100%);
+    background-size: cover;
+    background-position: center;
+  }
